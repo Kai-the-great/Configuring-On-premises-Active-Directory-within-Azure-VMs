@@ -11,7 +11,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
 
 <h2>Operating Systems Used </h2>
 
@@ -38,7 +37,7 @@ To create a Windows Server on Microsoft Azure, log in to the Azure portal, click
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+While logged into the Domain Controller, Click the >start window and Click >Sever Manager > Then Click >Add roles and Features. Go Through the promts and ensure that the domain controller is selected for "Destination Sever". Under Sever Roles select; "Active Directory Domain Services", finish going through the prompts by clicking next and restart the Virtual Machine.  
 </p>
 <br />
 <img width="1440" alt="Screenshot 2025-01-17 at 3 13 51 PM" src="https://github.com/user-attachments/assets/eb7aa4bc-1df8-4758-9d04-b6a8ef1f5526" />
