@@ -33,14 +33,15 @@ To create a Windows Server on Microsoft Azure, log in to the Azure portal, click
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/619c9b14-9855-425f-badc-5f9c27be03e2)
+![image](https://github.com/user-attachments/assets/adeace4c-7a83-465c-98da-7157ed6dd608)
+
 
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-<img width="1440" alt="Screenshot 2025-01-17 at 1 59 18 PM" src="https://github.com/user-attachments/assets/4c04dec6-43da-41e4-bf82-c9507bd44213" />
+<img width="1440" alt="Screenshot 2025-01-17 at 3 13 51 PM" src="https://github.com/user-attachments/assets/eb7aa4bc-1df8-4758-9d04-b6a8ef1f5526" />
 
 </p>
 <p>
