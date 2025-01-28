@@ -28,7 +28,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img width="1440" alt="Screenshot 2025-01-24 at 2 13 23 PM" src="https://github.com/user-attachments/assets/d8d350c6-161c-4bbf-bb49-d1a789c5ec30" />
 </p>
 <p>
-To create a Windows Server on Microsoft Azure, log in to the Azure portal, click **Create a resource**, and select **Virtual Machine**. Choose the desired Windows Server version, configure the resource group, size, and other settings, then review and deploy the VM. Once deployed, connect to the server using Remote Desktop Protocol (RDP) with the IP address provided in the Azure portal.
+To create a Windows Server on Microsoft Azure, log in to the Azure portal, click **Create a resource**, and select **Virtual Machine**. Choose the desired Windows Server version, configure the resource group, size, and other settings, then review and deploy the VM. Once deployed, connect to the server using Remote Desktop Protocol (RDP) OR Microsoft Remote Desktop (MAC) with the IP address provided in the Azure portal.
 </p>
 <br />
 
