@@ -25,25 +25,36 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Add a new forest as the "domain name"
 
 <h2>Deployment and Configuration Steps</h2>
-<img width="1440" alt="Screenshot 2025-01-24 at 2 13 23 PM" src="https://github.com/user-attachments/assets/d8d350c6-161c-4bbf-bb49-d1a789c5ec30" />
+<img width="1440" alt="Screenshot 2025-01-24 at 2 13 23 PM" src="https://github.com/user-attachments/assets/d8d350c6-161c-4bbf-bb49-d1a789c5ec30" /> <img width="1440" alt="Screenshot 2025-01-28 at 12 53 26 PM" src="https://github.com/user-attachments/assets/fd65df49-fd2c-4693-9348-f5b297025bc2" />
+
 </p>
 <p>
 To create a Windows Server on Microsoft Azure, log in to the Azure portal, click **Create a resource**, and select **Virtual Machine**. Choose the desired Windows Server version, configure the resource group, size, and other settings, then review and deploy the VM. Once deployed, connect to the server using Remote Desktop Protocol (RDP) OR Microsoft Remote Desktop (MAC) with the IP address provided in the Azure portal.
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/adeace4c-7a83-465c-98da-7157ed6dd608)
+</p>
+
+
+<img width="1440" alt="Screenshot 2025-01-28 at 12 38 57 PM" src="https://github.com/user-attachments/assets/f9752035-5d9c-4a0d-99b5-f4eef179d6ba" />
+
+
+
 
 
 </p>
 <p>
 While logged into the Domain Controller, Click the >start window and Click >Sever Manager > Then Click >Add roles and Features. Go Through the promts and ensure that the domain controller is selected for "Destination Sever". Under Sever Roles select; "Active Directory Domain Services", finish going through the prompts by clicking next and restart the Virtual Machine.  
 </p>
-<br />
-<img width="1440" alt="Screenshot 2025-01-17 at 3 13 51 PM" src="https://github.com/user-attachments/assets/eb7aa4bc-1df8-4758-9d04-b6a8ef1f5526" />
+<br 
+
+  <![DEBF6B2B-2556-4D2D-90A2-92A12D1CF2A1_1_201_a](https://github.com/user-attachments/assets/512f4870-b0e0-4fb1-a128-092665045b4a)
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+There will now be a flag signaling for the configuartion wizard to be completed. Click on "Add a new forest" and enter the domain you wish to enable. Click next and then finish so the software may upsdate all changes.
 </p>
+
+
+
 <br />
