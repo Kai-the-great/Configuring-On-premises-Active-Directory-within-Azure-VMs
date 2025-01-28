@@ -19,10 +19,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create a Domain Controller on Microsoft Azure
+- Launch Domain Controller on Remote Desktop 
+- Enable Active Directory on Domain Controller
+- Add a new forest as the "domain name"
 
 <h2>Deployment and Configuration Steps</h2>
 <img width="1440" alt="Screenshot 2025-01-24 at 2 13 23 PM" src="https://github.com/user-attachments/assets/d8d350c6-161c-4bbf-bb49-d1a789c5ec30" />
