@@ -20,9 +20,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Create a Domain Controller on Microsoft Azure
-- Launch Domain Controller on Remote Desktop 
-- Enable Active Directory on Domain Controller
+-  Enable Active Directory on Domain Controller
 - Add a new forest as the "domain name"
+- Restart Virtual Machime using "Domain Name\UserName"
 
 <h2>Deployment and Configuration Steps</h2>
 <img width="1440" alt="Screenshot 2025-01-24 at 2 13 23 PM" src="https://github.com/user-attachments/assets/d8d350c6-161c-4bbf-bb49-d1a789c5ec30" /> <img width="1440" alt="Screenshot 2025-01-28 at 12 53 26 PM" src="https://github.com/user-attachments/assets/fd65df49-fd2c-4693-9348-f5b297025bc2" />
@@ -55,6 +55,10 @@ While logged into the Domain Controller, Click the >start window and Click >Seve
 There will now be a flag signaling for the configuartion wizard to be completed. Click on "Add a new forest" and enter the domain you wish to enable. Click next and then finish so the software may upsdate all changes.
 </p>
 
+<img width="1440" alt="Screenshot 2025-01-28 at 1 30 32 PM" src="https://github.com/user-attachments/assets/3288f86f-de4d-45cf-9359-e24c427b1596" />
+<p>
+  Once all configurations are complete, restart the Domain Controller and log in using the selected "Domain Name" and the corresponding password created during the new forest setup. 
+</p>
 
 
 <br />
