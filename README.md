@@ -29,7 +29,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-To create a Windows Server on Microsoft Azure, log in to the Azure portal, click **Create a resource**, and select **Virtual Machine**. Choose the desired Windows Server version, configure the resource group, size, and other settings, then review and deploy the VM. Once deployed, connect to the server using Remote Desktop Protocol (RDP) OR Microsoft Remote Desktop (MAC) with the IP address provided in the Azure portal.
+To create a Windows Server on Microsoft Azure, log in to the Azure portal, click Create a resource, and select Virtual Machine. Choose the desired Windows Server version, configure the resource group, size, and other settings, then review and deploy the VM. Once deployed, connect to the server using Remote Desktop Protocol (RDP) or Microsoft Remote Desktop (for Mac) with the IP address provided in the Azure portal.
 </p>
 <br />
 
@@ -44,7 +44,7 @@ To create a Windows Server on Microsoft Azure, log in to the Azure portal, click
 
 </p>
 <p>
-While logged into the Domain Controller, Click the >start window and Click >Sever Manager > Then Click >Add roles and Features. Go Through the promts and ensure that the domain controller is selected for "Destination Sever". Under Sever Roles select; "Active Directory Domain Services", finish going through the prompts by clicking next and restart the Virtual Machine.  
+While logged into the Domain Controller, click Start, then open Server Manager. Click Add Roles and Features and proceed through the setup prompts, ensuring the Domain Controller is selected as the Destination Server. Under Server Roles, select Active Directory Domain Services (AD DS), complete the remaining prompts, and restart the Virtual Machine when prompted. 
 </p>
 <br 
 
@@ -52,12 +52,12 @@ While logged into the Domain Controller, Click the >start window and Click >Seve
 
 </p>
 <p>
-There will now be a flag signaling for the configuartion wizard to be completed. Click on "Add a new forest" and enter the domain you wish to enable. Click next and then finish so the software may upsdate all changes.
+After restarting, a notification flag will appear, prompting you to complete the configuration wizard. Click Promote this server to a domain controller, then select Add a new forest and enter the desired domain name. Click Next and follow the setup steps to finalize the configuration.
 </p>
 
 <img width="1440" alt="Screenshot 2025-01-28 at 1 30 32 PM" src="https://github.com/user-attachments/assets/3288f86f-de4d-45cf-9359-e24c427b1596" />
 <p>
-  Once all configurations are complete, restart the Domain Controller and log in using the selected "Domain Name" and the corresponding password created during the new forest setup. 
+Once all configurations are complete, restart the Domain Controller. Log in using the domain name and the administrator credentials set during the new forest setup.
 </p>
 
 
